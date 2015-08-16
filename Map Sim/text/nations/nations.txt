@@ -1,0 +1,347 @@
+attica = {
+	text = "Attica";
+	type = city;
+	primary = 194,254,255;
+	secondary = 255,0,0;
+	
+	settlements = {
+		athens = {
+			text = "Athens";
+			lvl = large_city;
+			population = 1200;
+			x = 121;
+			y = 96;
+			
+			units = {
+				land_a = {
+					type = Army;
+					x = 120;
+					y = 97;
+				};
+				sea_a = {
+					type = Trireme;
+					x = 126;
+					y = 95;
+				};
+				sea_b = {
+					type = ColonyShip;
+					x = 141;
+					y = 98;
+				}
+
+			}
+		};
+		marathon = {
+			text = "Marathon";
+			lvl = city;
+			population = 400;
+			x = 123;
+			y = 90;
+			
+		};
+		eleusis = {
+			text = "Eleusis";
+			lvl = city;
+			population = 400;
+			x = 113;
+			y = 91;
+		};
+		aphidnaea = {
+			text = "Aphidnaea";
+			lvl = city;
+			population = 400;
+			x = 120;
+			y = 87;
+		}
+	}
+
+}
+
+argolis = {
+	text = "Argolis";
+	type = kingdom;
+	primary = 50,200,30;
+	secondary = 50,30,200;
+	
+	settlements = {
+		argos = {
+			text = "Argos";
+			lvl = city;
+			population = 700;
+			x = 89;
+			y = 103;
+		};
+		lerna = {
+			text = "Lerna";
+			lvl = city;
+			population = 600;
+			x = 90;
+			y = 105;
+		};
+		tiryns = {
+			text = "Tiryns";
+			lvl = city;
+			population = 500;
+			x = 93;
+			y = 104;
+			
+		};
+		asine = {
+			text = "Asine";
+			lvl = city;
+			population = 450;
+			x = 97;
+			y = 106;
+		};
+		epidaurus = {
+			text = "Epidaurus";
+			lvl = city;
+			population = 300;
+			x = 101;
+			y = 102;
+		};
+		troezen = {
+			text = "Troezen";
+			lvl = city;
+			population = 300;
+			x = 108;
+			y = 107;
+		};
+		hermione = {
+			text = "Hermoine";
+			lvl = city;
+			population = 200;
+			x = 102;
+			y = 111;
+		}
+	}
+}
+
+sparta = {
+	text = "Sparta";
+	type = city;
+	primary = 253,118,118;
+	secondary = 212,0,0;
+
+	settlements = {
+		sparta = {
+			text = "Sparta";
+			lvl = large_city;
+			population = 900;
+			x = 86;
+			y = 117;
+		};
+		pharis = {
+			text = "pharis";
+			lvl = city;
+			population = 300;
+			x = 86;
+			y = 122;
+		};
+		helus = {
+			text = "Helus";
+			lvl = city;
+			population = 200;
+			x = 93;
+			y = 124;
+		};
+		las = {
+			text = "Las";
+			lvl = city;
+			population = 200;
+			x = 89;
+			y = 124;
+		};
+		messe = {
+			text = "Messe";
+			lvl = city;
+			population = 150;
+			x = 82;
+			y = 133;
+		};
+		oetylus = {
+			text = "Oetylus";
+			lvl = city;
+			population = 125;
+			x = 82;
+			y = 126;
+		}
+	}
+	
+}
+
+mycenae = {
+	text = "Mycenae";
+	type = kingdom;
+	primary = 10,10,10;
+	secondary = 250,250,250;
+
+	settlements = {
+		mycenae = {
+			text = "Mycenae";
+			lvl = large_city;
+			population = 900;
+			x = 93;
+			y = 101;
+		};
+		corinth = {
+			text = "Corinth";
+			lvl = large_city;
+			population = 600;
+			x = 95;
+			y = 96;
+		};
+		megara = {
+			text = "Megara";
+			lvl = city;
+			population = 400;
+			x = 104;
+			y = 93;
+		};
+		nemea = {
+			text = "Nemea";
+			lvl = city;
+			population = 400;
+			x = 88;
+			y = 99;
+		};
+		cleonae = {
+			text = "Cleonae";
+			lvl = city;
+			population = 500;
+			x = 92;
+			y = 98;
+		};
+		sicyon = {
+			text = "Sicyon";
+			lvl = city;
+			population = 400;
+			x = 88;
+			y = 93;
+		};
+		pellene = {
+			text = "Pellene";
+			lvl = city;
+			population = 450;
+			x = 84;
+			y = 91;
+		};
+		aegium = {
+			text = "Aegium";
+			lvl = city;
+			population = 300;
+			x = 73;
+			y = 87;
+		};
+		patrae = {
+			text = "Patrae";
+			lvl = city;
+			population = 300;
+			x = 66;
+			y = 87;
+		}
+	}
+}
+
+abydus = {
+	text = "Abydus";
+	type = city;
+	primary = 0,0,220;
+	secondary = 0,220,0;
+	
+	settlements = {
+		abydus = {
+			text = "Abydus";
+			lvl = city;
+			population = 600;
+			x = 189;
+			y = 36;
+		};
+		percote = {
+			text = "Percote";
+			lvl = city;
+			population = 600;
+			x = 193;
+			y = 34;
+		}
+	}
+}
+
+troas = {
+	text = "Troas";
+	type = city;
+	primary = 255,255,50;
+	secondary = 255,50,50;
+	
+	settlements = {
+		troas = {
+			text = "Troas";
+			lvl = large_city;
+			population = 1500;
+			x = 184;
+			y = 44;
+		};
+		dardanus = {
+			text = "Dardanus";
+			lvl = city;
+			population = 800;
+			x = 186;
+			y = 40;
+		};
+		antandrus = {
+			text = "Antandrus";
+			lvl = city;
+			population = 700;
+			x = 191;
+			y = 52;
+		};
+		assus = {
+			text = "Assus";
+			lvl = city;
+			population = 700;
+			x = 184;
+			y = 53;
+		}
+	}
+}
+
+chersonesus = {
+	text = "Chersonesus";
+	type = city;
+	primary = 150,50,100;
+	secondary = 50,50,255;
+	
+	settlements = {
+		elaeus = {
+			text = "Elaeus";
+			lvl = city;
+			population = 700;
+			x = 183;
+			y = 37;
+		};
+		sestus = {
+			text = "Sestus";
+			lvl = city;
+			population = 600;
+			x = 189;
+			y = 32;
+		}
+	}
+}
+
+tenedos = {
+	text = "Tenedos";
+	type = city;
+	primary = 255,255,0;
+	secondary = 0,0,255;
+	
+	settlements = {
+		tenedos = {
+			text = "Tenedos";
+			lvl = city;
+			population = 600;
+			x = 177;
+			y = 46;
+		}
+	}
+}
